@@ -1,0 +1,52 @@
+body {
+  background: #1b1b1b;
+  color: #fff;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 600px;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #ff9800;
+}
+
+.productos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.producto {
+  background: #2c2c2c;
+  padding: 10px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px;
+  background: #ff9800;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ffa726;
+}
+
+li button {
+  margin-left: 10px;
+  padding: 2px 6px;
+  font-size: 12px;
+}
